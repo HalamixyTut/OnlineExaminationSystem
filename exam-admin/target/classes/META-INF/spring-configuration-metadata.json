@@ -1,0 +1,60 @@
+{
+  "groups": [
+    {
+      "name": "oss.config",
+      "type": "com.wzz.config.OSSConfig",
+      "sourceType": "com.wzz.config.OSSConfig"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.wzz.config.DruidConfig",
+      "sourceMethod": "druidDataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "oss.config.accesskeyid",
+      "type": "java.lang.String",
+      "sourceType": "com.wzz.config.OSSConfig",
+      "defaultValue": "oss认证key"
+    },
+    {
+      "name": "oss.config.accesskeysecret",
+      "type": "java.lang.String",
+      "sourceType": "com.wzz.config.OSSConfig",
+      "defaultValue": "oss认证密钥"
+    },
+    {
+      "name": "oss.config.bucketname",
+      "type": "java.lang.String",
+      "sourceType": "com.wzz.config.OSSConfig",
+      "defaultValue": "创建的bucket name"
+    },
+    {
+      "name": "oss.config.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.wzz.config.OSSConfig",
+      "defaultValue": false
+    },
+    {
+      "name": "oss.config.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.wzz.config.OSSConfig",
+      "defaultValue": "你的oss地址"
+    },
+    {
+      "name": "oss.config.host",
+      "type": "java.lang.String",
+      "sourceType": "com.wzz.config.OSSConfig",
+      "defaultValue": "oss-cn-beijing.aliyuncs.com"
+    },
+    {
+      "name": "oss.config.key",
+      "type": "java.lang.String",
+      "sourceType": "com.wzz.config.OSSConfig",
+      "defaultValue": "images\/upload\/"
+    }
+  ],
+  "hints": []
+}
